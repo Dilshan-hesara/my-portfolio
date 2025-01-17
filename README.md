@@ -1,4 +1,4 @@
-# Dislahan-Hesara
+# Dilshan-Hesara
 A-01
 ## Assignment 01
 [Goals Doc](https://drive.google.com/file/d/1FW-k5dJ_xbadFVEwNkQF5hNZoqfvRipg/view?usp=sharing)
