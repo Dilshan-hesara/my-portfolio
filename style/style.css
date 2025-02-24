@@ -44,6 +44,9 @@ nav ul li a:hover {
     color: #807d7d;
 }
 
+nav ul li:nth-child(2) {
+    margin-left: 400px;
+}
 
 
 
