@@ -90,6 +90,31 @@ nav ul li:nth-child(3) {
     padding: 134px 69px;
 }
 
+#reachme {
+
+    padding: 134px 69px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    /*font-family: Arial, sans-serif;*/
+}
 
 
 
+.footer-content {
+    margin: 0;
+    padding: 5px 0;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+
+}
