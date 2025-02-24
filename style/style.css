@@ -29,16 +29,13 @@ nav ul {
     gap:50px;
     position: fixed;
 
-
 }
 
 nav ul li a {
     color: #000000;
     text-decoration: none;
 
-
 }
-
 
 nav ul li a:hover {
     color: #807d7d;
@@ -50,5 +47,20 @@ nav ul li:nth-child(2) {
 
 nav ul li:nth-child(3) {
     margin-left: 26px;
+}
+
+
+
+#home {
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    padding: 132px 69px;
+}
+
+
+
+.profile-picture-container > img {
+    padding: 17px 1px;
+    width: 250px;
 }
 
