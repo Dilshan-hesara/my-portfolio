@@ -32,5 +32,18 @@ nav ul {
 
 }
 
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+
+
+}
+
+
+nav ul li a:hover {
+    color: #807d7d;
+}
+
+
 
 
