@@ -48,6 +48,28 @@ nav ul li:nth-child(2) {
 nav ul li:nth-child(3) {
     margin-left: 26px;
 }
+nav ul li:nth-child(1) {
+
+
+    font-family: "Pacifico";
+}
+nav ul li {
+
+
+    font-family: "Roboto Condensed";
+}
+
+
+nav > img{
+    width: 30px; /* Set icon size */
+    height: 30px;
+    transition: transform 0.2s ease;
+}
+nav > img:hover {
+    transform: scale(1.2); /* Enlarge icons on hover */
+
+}
+
 
 
 
@@ -118,3 +140,26 @@ footer {
     text-align: center;
 
 }
+
+
+
+
+    .footer-section {
+        flex: 1;
+        min-width: 200px;
+        margin: 10px;
+    }
+
+    .footer-section p {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .footer-section a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer-section a:hover {
+        text-decoration: underline;
+    }
