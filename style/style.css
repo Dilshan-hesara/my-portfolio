@@ -78,12 +78,38 @@ nav > img:hover {
     padding: 132px 69px;
 }
 
+#home>h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+
+}
+
+
+#home>h1{
+    font-family: "Sen";
+    font-size: 75px;
+
+
+}
+#home>h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+#home>p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
 
 
 .profile-picture-container > img {
     padding: 17px 1px;
     width: 250px;
 }
+
 
 #about {
 
