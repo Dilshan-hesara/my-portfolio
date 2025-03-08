@@ -26,6 +26,45 @@ header{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+header>div>img{
+    position: absolute;
+    width: 30px;
+    top: 10px;
+    left: 10px;
+
+}
+header>div>a{
+    display: flex;
+    position: absolute;
+
+    padding: 4px;
+    left: 60px;
+
+}
+
+
+header nav{
+
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    /*left: 0;*/
+    bottom: 0;
+    margin: auto;
+}
+
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    position: relative;
+}
+
+
 
 
 /*header {*/
