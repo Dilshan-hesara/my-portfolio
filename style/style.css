@@ -177,6 +177,26 @@ nav>div>img:hover {
 }
 
 
+#home>div{
+    position: relative;
+}
+
+
+
+#home>div>div{
+    width: fit-content;
+    height: fit-content;
+
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    text-align: left;
+}
+
 
 #home>h3{
     font-family: 'Inter', sans-serif;
