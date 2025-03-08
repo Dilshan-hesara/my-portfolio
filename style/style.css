@@ -301,6 +301,26 @@ nav>div>img:hover {
 }
 
 
+#about>div{
+    position: relative;
+}
+
+#about>div>div{
+    width: fit-content;
+    height: fit-content;
+
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    text-align: left;
+}
+
+
+
 #skills {
 
     padding: 275px 69px;
