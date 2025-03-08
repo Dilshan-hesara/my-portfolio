@@ -288,7 +288,15 @@ nav>div>img:hover {
 
 #about {
 
-    padding: 195px 69px;
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 0px);
+
+
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(1, 1fr);
+
     background-color: #BDBDBD;
 }
 
