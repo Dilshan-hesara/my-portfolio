@@ -281,7 +281,8 @@ nav>div>img:hover {
 
 .profile-picture-container > img {
     padding: 10px 0;
-    width: 350px;
+    width: 400px;
+    border-radius:20% ;
 }
 
 
