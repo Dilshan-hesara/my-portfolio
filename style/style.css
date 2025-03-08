@@ -324,6 +324,24 @@ nav>div>img:hover {
     margin-right:100px;
 }
 
+#about>div:last-child>div>h2{
+    font-family: "Sen", sans-serif;
+    font-size: 40px;
+}
+
+#about>div:last-child>div>h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #ACA48D;
+}
+
+#about>div:last-child>div>p{
+
+    font-family:  sans-serif;
+
+}
+
 
 
 
