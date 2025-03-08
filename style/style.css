@@ -65,7 +65,45 @@ header nav ul{
 }
 
 
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
 
+}
+
+nav ul li a:hover {
+    color: #807d7d;
+}
+
+header>div>a:hover {
+    color: #807d7d;
+}
+
+
+
+nav ul li:nth-child(2) {
+    margin-left: 26px;
+}
+header>div>a {
+    color: #000000;
+
+    text-decoration: none;
+
+
+    font-family: "Pacifico", sans-serif;
+}
+nav ul li {
+
+
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+
+nav>div>img:hover {
+    transform: scale(1.2); /* Enlarge icons on hover */
+
+}
 
 /*header {*/
 /*    background-color: #F8F8F8;*/
