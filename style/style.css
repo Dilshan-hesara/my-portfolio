@@ -329,6 +329,13 @@ nav>div>img:hover {
     font-size: 40px;
 }
 
+#about>div:last-child>div>h2>mark{
+    background-color:#BDBDBD;
+    color: #909090;
+    padding: 3px 5px;
+
+}
+
 #about>div:last-child>div>h4{
     font-family: 'Inter', sans-serif;
     font-weight: 800;
