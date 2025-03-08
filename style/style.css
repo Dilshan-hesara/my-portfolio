@@ -310,7 +310,7 @@ nav>div>img:hover {
     height: fit-content;
 
     position: absolute;
-    left: 100px;
+    left: -100px;
     right: 0;
     top: 0;
     bottom: 0;
@@ -318,6 +318,12 @@ nav>div>img:hover {
 
     text-align: left;
 }
+
+#about>div:last-child>div{
+
+    margin-right:100px;
+}
+
 
 
 
