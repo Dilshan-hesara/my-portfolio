@@ -374,7 +374,7 @@ nav>div>img:hover {
 
 #skills {
 
-    /*background-color: #909090;*/
+    background-color: #909090;
     position: relative;
     width: 100%;
     height: calc(100vh - 0px);
@@ -390,14 +390,10 @@ nav>div>img:hover {
     font-size: 36px;
 }
 #skills>div>p {
-    font-family: 'Arial', sans-serif; /* Example font */
-
-
+    font-family: 'Arial', sans-serif;
     text-align: left;
     font-size: 20px;
-
     color: #3B4252;
-
     padding: 20px 52px;
 
 }
