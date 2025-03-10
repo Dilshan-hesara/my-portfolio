@@ -405,7 +405,7 @@ nav>div>img:hover {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding: 20px;
+    padding: 50px;
 }
 
 #skills>div:nth-child(2)>div:first-child>div{
@@ -422,12 +422,24 @@ nav>div>img:hover {
     width: 50px;
     height: 50px;
     transition: transform 0.3s ease, opacity 0.3s ease;
-}#skills>div:nth-child(2)>div:first-child>div>div>img:hover{
+}
+#skills>div:nth-child(2)>div:first-child>div>div>img:hover{
      transform: scale(1.1);
      opacity: 0.8;
 }
 
+#skills>div:nth-child(2)>div:first-child>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; /* Adjust width */
+    height: 80px; /* Adjust height */
+    background: #BDBDBD;
 
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: 12px;
+}
 
 #education {
     background-color: #444444;
