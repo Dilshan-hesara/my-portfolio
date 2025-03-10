@@ -258,6 +258,10 @@ nav>div>img:hover {
     font-weight: 500;
 }
 
+#home>div:last-child{
+    /*background-color: #3B4252;*/
+    margin-left: -50px;
+}
 /*home connen butt */
 .connect-button {
     font-family: 'Inter', sans-serif;
@@ -441,17 +445,14 @@ nav>div>img:hover {
     margin: 12px;
 }
 
-#education {
-    background-color: #444444;
-
-    padding: 230px 69px;
-}
 
 #projects {
     background-color: aqua;
 
     padding: 230px 69px;
 }
+
+
 
 #contact {
     background-color: #333333;
