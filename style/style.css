@@ -432,8 +432,8 @@ nav>div>img:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px; /* Adjust width */
-    height: 80px; /* Adjust height */
+    width: 80px;
+    height: 80px;
     background: #BDBDBD;
 
     border-radius: 8px;
