@@ -72,6 +72,17 @@
         position: static;
     }
 
+    #home>div>div {
+        position: static; /* Reset positioning */
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #home>div:first-child {
+        order: 2;
+    }
+
+
 
 
 
