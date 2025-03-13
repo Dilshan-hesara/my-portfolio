@@ -203,7 +203,7 @@
     }
 
     #about>div:last-child {
-        order: 2; /* Move text content to the bottom */
+        order: 2;
         /*margin-right: 0;*/
 
         margin-left: 100px;
@@ -212,6 +212,21 @@
     }
 
 
+    .profile-picture-container img {
+        max-width: 300px;
+    }
+
+    #about>div:last-child>div>h2 {
+        font-size: 32px;
+    }
+
+    #about>div:last-child>div>h4 {
+        font-size: 20px;
+    }
+
+    #about>div:last-child>div>p {
+        font-size: 16px;
+    }
 
 
 
