@@ -249,7 +249,9 @@ nav>div>img:hover {
 .profile-picture-container > img {
     padding: 10px 0;
     /*width: 400px;*/
-    width: 700px;
+    width: 400px;
+
+    /*border: darkorchid 2px solid;*/
     /*border-radius:20% ;*/
 }
 
@@ -393,4 +395,13 @@ nav>div>img:hover {
 #skills>div:nth-child(2)>div:first-child>div>div>img:hover{
     transform: scale(1.1);
     opacity: 0.8;
+}
+
+
+@media all and  (max-width:425px) {
+
+}
+
+@media all and  (max-width:765px) {
+
 }
