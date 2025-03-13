@@ -18,6 +18,20 @@
 
 
     /*HOME*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*ABOUT*/
     /*SKILL*/
     /*EDU*/
@@ -37,12 +51,32 @@
 
     body>header>div:first-child>a{
 
-        margin-left: 21vw;
+        margin-left: 32vw;
 
     }
 
 
     /*HOME*/
+
+    #home {
+        grid-template-columns: 1fr; /* Single clome ekk gatta */
+        grid-template-rows: auto auto; /*poto eka fist ,text bottm*/
+        height: auto;
+
+
+        padding: 20px 0px 30px 0px;
+    }
+
+
+    #home>div {
+        position: static;
+    }
+
+
+
+
+
+
     /*ABOUT*/
     /*SKILL*/
     /*EDU*/
