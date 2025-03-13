@@ -19,6 +19,31 @@
 
     /*HOME*/
 
+    #home>div>div {
+        /*padding: 0 10px;*/
+    }
+
+    #home>div:first-child>div>h1 {
+        font-size: 40px;
+    }
+
+    #home>div:first-child>div>h2 {
+        font-size: 24px;
+    }
+
+    #home>div:first-child>div>h3 {
+        font-size: 24px;
+    }
+
+    .connect-button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .profile-picture-container>img {
+        width: 100%;
+        max-width: 250px;
+    }
 
 
 
@@ -73,7 +98,7 @@
     }
 
     #home>div>div {
-        position: static; /* Reset positioning */
+        position: static;
         margin: 0 auto;
         text-align: center;
     }
@@ -90,7 +115,7 @@
 
     .profile-picture-container>img {
         width: 100%;
-        max-width: 250px;
+        max-width: 300px;
     }
 
 
