@@ -1,15 +1,51 @@
+
+    /*PHONE*/
 @media all and  (max-width:425px) {
+
+    /*HEADER*/
+
     body>header>nav{
         display: none;
     }
 
+     body>header>div:first-child>a{
+
+         /*display: none;*/
+
+         /*margin-left: 21vw;*/
+    }
+
+
+
+    /*HOME*/
+    /*ABOUT*/
+    /*SKILL*/
+    /*EDU*/
+    /*PROJECT*/
+    /*CONTACT*/
 
 }
 
+    /*TAB*/
 @media all and  (max-width:765px) {
+
+    /*HEADER*/
 
     body>header>nav{
         display: none;
     }
 
+    body>header>div:first-child>a{
+
+        margin-left: 21vw;
+
+    }
+
+
+    /*HOME*/
+    /*ABOUT*/
+    /*SKILL*/
+    /*EDU*/
+    /*PROJECT*/
+    /*CONTACT*/
 }
