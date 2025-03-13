@@ -47,17 +47,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
     /*ABOUT*/
+
+
+
+
+
+
+
+
+
     /*SKILL*/
     /*EDU*/
     /*PROJECT*/
@@ -161,8 +160,40 @@
 
 
 
-
     /*ABOUT*/
+
+
+    #about {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        height: auto;
+        /*padding: 5px 10px;*/
+        /*padding: 5px 10px 10px 5px;*/
+
+        padding: 10px 0px 31px 0px
+    }
+
+
+    #about>div {
+        position: static;
+    }
+
+    #about>div>div {
+        position: static;
+        margin: 0 auto;
+        text-align: center;
+        /*left: 0;*/
+
+    }
+
+
+
+
+
+
+
+
+
     /*SKILL*/
     /*EDU*/
     /*PROJECT*/
