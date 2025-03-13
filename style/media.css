@@ -80,7 +80,19 @@
     /*SKILL*/
 
 
+    .skills-row img {
+        width: 30px;
+        height: 30px;
+    }
 
+    .skills-row {
+        gap: 10px;
+    }
+
+    .item {
+        width: 60px;
+        height: 60px;
+    }
 
 
 
