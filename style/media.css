@@ -186,6 +186,29 @@
 
     }
 
+    #about>div {
+        position: static; /
+    }
+
+    #about>div>div {
+        position: static;
+        margin: 0 auto;
+        text-align: center;
+        /*left: 0;*/
+
+    }
+
+    #about>div:first-child {
+        order: 1;
+    }
+
+    #about>div:last-child {
+        order: 2; /* Move text content to the bottom */
+        /*margin-right: 0;*/
+
+        text-align: center;
+
+    }
 
 
 
