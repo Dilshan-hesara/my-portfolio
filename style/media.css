@@ -206,6 +206,7 @@
         order: 2; /* Move text content to the bottom */
         /*margin-right: 0;*/
 
+        margin-left: 100px;
         text-align: center;
 
     }
