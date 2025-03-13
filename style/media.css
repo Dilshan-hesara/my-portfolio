@@ -94,6 +94,45 @@
     }
 
 
+    #home>div:first-child>div>h3{
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+
+    }
+    #home>h3{
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+
+    }
+
+
+    #home>div:first-child>div>h1{
+        font-family: "Sen", sans-serif;
+        font-size: 45px;
+
+
+    }
+    #home>div:first-child>div>h2{
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 12px;
+    }
+
+    #home>div:first-child>div>h2>mark {
+        background-color:#E2E2E2;
+        color: #A59D84;
+        padding: 3px 5px;
+        border-radius: 5px;
+    }
+
+
+    #home>div:first-child>div>p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+    }
+
 
 
 
