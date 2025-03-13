@@ -50,6 +50,30 @@
     /*ABOUT*/
 
 
+    #about {
+        padding: 5px 10px;
+    }
+
+    .profile-picture-container img {
+        max-width: 250px;
+    }
+
+    #about>div:last-child>div>h2 {
+        font-size: 28px;
+    }
+
+    #about>div:last-child>div>h4 {
+        font-size: 18px;
+    }
+
+    #about>div:last-child>div>p {
+        font-size: 14px;
+    }
+
+    .connect-button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
 
 
 
