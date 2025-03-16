@@ -646,3 +646,6 @@ section#projects .image-container .details {
     width: 90%;
 }
 
+section#projects .image-container:hover .details {
+    opacity: 1;
+}
