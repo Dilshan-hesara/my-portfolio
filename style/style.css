@@ -831,3 +831,24 @@ footer {
     text-align: center;
 
 }
+
+footer>div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Footer Bottom */
+
+.footer-bottom {
+
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    padding-top: 20px;
+    border-top: 1px solid #9a9a9a;    font-size: 14px;
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+}
+
