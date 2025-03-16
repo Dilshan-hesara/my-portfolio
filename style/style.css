@@ -707,6 +707,25 @@ section#projects .image-container .details a:hover {
     max-width: 500px;
 }
 
+#contact h2 {
+    margin-top: 70px;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: "Sen", sans-serif;
+
+
+}
+
+#contact p {
+    /*margin-top: -10px;*/
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 30px;
+    font-family: "Sen", sans-serif;
+
+}
+
 .input-group {
     display: flex;
     align-items: center;
@@ -763,7 +782,6 @@ section#projects .image-container .details a:hover {
 
 }
 
-
 #contact button:hover {
     background-color: #CDC6B1;
     transform: translateY(-3px);
@@ -772,3 +790,4 @@ section#projects .image-container .details a:hover {
 #contact button:active {
     transform: translateY(0);
 }
+
