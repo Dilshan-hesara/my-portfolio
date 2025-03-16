@@ -629,3 +629,7 @@ section#projects .image-container::after {
     border-radius: 8px;
 }
 
+section#projects .image-container:hover::after {
+    opacity: 1;
+}
+
