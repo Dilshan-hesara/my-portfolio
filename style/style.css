@@ -672,3 +672,8 @@ section#projects .image-container .details a {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+section#projects .image-container .details a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
