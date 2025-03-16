@@ -398,3 +398,25 @@ nav>div>img:hover {
 }
 
 
+        /*EDUCATION*/
+
+#education {
+    padding: 20px;
+    /*background-color: #f9f9f9;*/
+    /*background-color: #fd0e0e;*/
+    border-radius: 8px;
+    margin: 20px 0;
+    background-color: #98aeff;
+}
+
+
+
+#education > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+
