@@ -744,5 +744,24 @@ section#projects .image-container .details a:hover {
     min-height: 150px;
 }
 
+#contact button {
+
+    background-color: #CDC6B1;
+    color: #000000;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: "Sen", sans-serif;
+
+
+
+
+}
+
 
 
