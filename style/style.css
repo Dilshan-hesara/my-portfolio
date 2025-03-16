@@ -950,5 +950,6 @@ footer>  div:first-child>  div:nth-child(3)> div.social-icons a {
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
