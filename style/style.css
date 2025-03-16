@@ -963,3 +963,8 @@ footer>   div:first-child> div:nth-child(3) > div.social-icons img {
     transition: opacity 0.3s ease;
 }
 
+footer>  div:first-child> div:nth-child(3) > div.social-icons a:hover {
+    background-color: rgba(181, 171, 143, 0.45);
+    border:solid #98aeff 1px;
+
+}
