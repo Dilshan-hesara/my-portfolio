@@ -764,4 +764,11 @@ section#projects .image-container .details a:hover {
 }
 
 
+#contact button:hover {
+    background-color: #CDC6B1;
+    transform: translateY(-3px);
+}
 
+#contact button:active {
+    transform: translateY(0);
+}
