@@ -495,7 +495,21 @@ nav>div>img:hover {
 .language-list {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Adds space between language items */
+    gap: 15px;
     flex-wrap: wrap;
+}
+
+.language-list span {
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+
+    font-family: 'Roboto Mono', monospace;
 }
 
