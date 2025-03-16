@@ -852,3 +852,27 @@ footer>div:first-child{
     font-family: 'Roboto Mono', monospace;
 }
 
+
+/*cont*/
+
+
+#contact-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+#contact-footer > div:first-child {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#contact-footer > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
