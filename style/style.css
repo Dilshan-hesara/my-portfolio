@@ -441,3 +441,12 @@ nav>div>img:hover {
 }
 
 
+#education img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #333;
+
+}
+
