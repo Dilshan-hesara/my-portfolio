@@ -936,8 +936,19 @@ footer>div:first-child>div:nth-child(3) {
 
 footer>  div:first-child>div:nth-child(3) > div.social-icons {
     display: flex;
-    /*flex-wrap: wrap;*/
+    /*flex-wrap: wrap;*/ /*gap ekk natuva */
     gap: 10px;
     justify-content: center;
+}
+
+footer>  div:first-child>  div:nth-child(3)> div.social-icons a {
+    border:solid #CDC6B1 1px;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    background-color: #efefef;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
 }
 
