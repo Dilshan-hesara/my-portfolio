@@ -763,6 +763,34 @@ section#projects .image-container .details a:hover {
     min-height: 150px;
 }
 
+#full-name::placeholder {
+    color: #8F8F8F;
+    font-size: 16px;
+    font-family: "Sen", sans-serif;
+    opacity: 1;
+}
+
+#email::placeholder {
+    color: #8F8F8F;
+    font-size: 16px;
+    font-family: "Sen", sans-serif;
+    opacity: 1;
+}
+
+#msg::placeholder {
+    color: #8F8F8F;
+    font-size: 16px;
+    font-family: "Sen", sans-serif;
+    opacity: 1;
+}
+#msg::placeholder {
+    color: #8F8F8F;
+    font-size: 16px;
+    font-family: "Sen", sans-serif;
+    opacity: 1;
+}
+
+
 #contact button {
 
     background-color: #CDC6B1;
