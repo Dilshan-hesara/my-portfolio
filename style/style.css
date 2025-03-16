@@ -720,3 +720,29 @@ section#projects .image-container .details a:hover {
     filter: grayscale(100%);
 }
 
+.input-group input,
+.input-group textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #333;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #CDC6B1;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+
+.input-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+
+
