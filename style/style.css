@@ -567,3 +567,9 @@ section#projects > div {
     margin-bottom: 30px;
 }
 
+section#projects > div > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
