@@ -649,3 +649,26 @@ section#projects .image-container .details {
 section#projects .image-container:hover .details {
     opacity: 1;
 }
+
+
+
+section#projects .image-container .details h4 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+section#projects .image-container .details p {
+    font-size: 0.85em;
+    margin-bottom: 5px;
+}
+
+section#projects .image-container .details a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
