@@ -819,3 +819,15 @@ section#projects .image-container .details a:hover {
     transform: translateY(0);
 }
 
+
+
+/*FOOTER */
+
+footer {
+    background-color: rgba(174, 174, 174, 0.65);
+    color: #ecf0f1;
+    padding: 40px 20px;
+    /*font-family: 'Arial', sans-serif;*/
+    text-align: center;
+
+}
