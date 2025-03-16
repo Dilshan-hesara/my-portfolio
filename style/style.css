@@ -707,7 +707,11 @@ section#projects .image-container .details a:hover {
     max-width: 500px;
 }
 
-
-
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
 
 
