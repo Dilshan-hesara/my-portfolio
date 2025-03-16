@@ -702,3 +702,12 @@ section#projects .image-container .details a:hover {
     gap: 20px;
 }
 
+#contact > div > div {
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+
+
