@@ -714,4 +714,9 @@ section#projects .image-container .details a:hover {
     margin-bottom: 20px;
 }
 
+.input-group img {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(100%);
+}
 
