@@ -633,3 +633,16 @@ section#projects .image-container:hover::after {
     opacity: 1;
 }
 
+section#projects .image-container .details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    width: 90%;
+}
+
