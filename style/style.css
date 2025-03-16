@@ -903,3 +903,25 @@ footer>div:first-child{
             -8px 0 12px -5px rgba(0, 0, 0, 0.2);
 }
 
+
+#contact-footer > div:nth-child(2) > div a,
+#contact-footer > div:nth-child(2) > div h2 {
+    font-size: 13px;
+    color: rgb(126, 122, 122);
+    margin: 2px 0;
+    text-decoration: none;
+    font-family: 'Rowdies', sans-serif;
+
+
+}
+
+footer>div:first-child>h3{
+    color: #807777;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 1px;
+
+    text-shadow:  0px 4px 6px rgba(142, 141, 141, 0.49);
+}
+
+
