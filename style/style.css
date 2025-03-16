@@ -925,3 +925,19 @@ footer>div:first-child>h3{
 }
 
 
+/*social*/
+
+footer>div:first-child>div:nth-child(3) {
+    margin-top: 40px;
+    /*flex: 1;*/
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+footer>  div:first-child>div:nth-child(3) > div.social-icons {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    gap: 10px;
+    justify-content: center;
+}
+
