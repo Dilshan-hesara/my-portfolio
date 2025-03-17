@@ -97,6 +97,36 @@
 
 
     /*EDU*/
+
+    #education > div > div {
+        width: 100%;
+    }
+
+    #education > div:last-child {
+        padding: 15px;
+    }
+
+    #education > div:last-child h5 {
+        font-size: 15px;
+    }
+
+    #education >div:first-child>div{
+        display: flex;
+
+        flex-direction:row;
+    }
+
+    #education > div:last-child p {
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
     /*PROJECT*/
     /*CONTACT*/
 
@@ -299,8 +329,14 @@
 
 
 
+    #education > div > div {
+        flex-direction: column;
+        align-items: center;
+    }
 
-
+    #education img {
+        margin-bottom: 10px;
+    }
 
 
     /*PROJECT*/
