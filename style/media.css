@@ -122,6 +122,38 @@
     /*PROJECT*/
 
 
+    section#projects > div > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#projects h2 {
+        font-size: 1.5em;
+    }
+
+    section#projects h3 {
+        font-size: 1.2em;
+    }
+
+    section#projects .image-container {
+        width: 90%;
+        height: auto;
+        max-width: 250px;
+    }
+
+    section#projects .image-container .details h4 {
+        font-size: 0.9em;
+    }
+
+    section#projects .image-container .details p {
+        font-size: 0.75em;
+    }
+
+    section#projects .image-container .details a {
+        font-size: 0.7em;
+        padding: 4px 8px;
+    }
 
 
 
