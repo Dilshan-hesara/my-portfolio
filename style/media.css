@@ -291,11 +291,18 @@
 
 
 
-
-
-
-
     /*EDU*/
+
+    #education > div > div {
+        width: calc(50% - 20px);
+    }
+
+
+
+
+
+
+
     /*PROJECT*/
     /*CONTACT*/
 }
