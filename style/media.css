@@ -120,6 +120,20 @@
 
 
     /*PROJECT*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*CONTACT*/
     #contact {
         padding: 30px 15px;
@@ -405,6 +419,31 @@
 
 
     /*PROJECT*/
+
+
+
+    section#projects > div > div {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    section#projects h2 {
+        font-size: 1.8em;
+    }
+
+    section#projects h3 {
+        font-size: 1.4em;
+    }
+
+    section#projects .image-container {
+        height: 250px;
+    }
+
+
+
+
+
+
+
     /*CONTACT*/
 
 
