@@ -120,6 +120,14 @@
         font-size: 10px;
     }
 
+    #education > div > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #education img {
+        margin-bottom: 10px;
+    }
 
 
 
