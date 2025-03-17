@@ -146,6 +146,10 @@
     }
 
 
+
+
+
+
 }
 
     /*TAB*/
@@ -380,6 +384,22 @@
     #contact button {
         padding: 10px 25px;
         font-size: 14px;
+    }
+
+        /*FOOTER*/
+
+    #contact-footer > div:nth-child(2) {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #contact-footer > div:nth-child(2) > div {
+        width: 100%;
+        max-width: none;
+    }
+
+    footer > div:first-child > h3 {
+        font-size: 1.5rem;
     }
 
 }
