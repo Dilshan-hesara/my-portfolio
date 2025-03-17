@@ -855,6 +855,7 @@ footer>div:first-child{
 
 /*cont*/
 
+
 #contact-footer {
     display: flex;
     flex-direction: column;
@@ -874,8 +875,10 @@ footer>div:first-child{
     flex-direction: row;
     gap: 20px;
     margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+
+
+        flex-wrap: wrap;
+        justify-content: center;
 }
 
 #contact-footer > div:nth-child(2) > div {
@@ -885,9 +888,16 @@ footer>div:first-child{
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 250px;
+    width: 250px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact-footer > div:nth-child(2) > div:hover {
+    transform: scale(1.05);
+    box-shadow:
+            8px 0 12px -5px rgba(0, 0, 0, 0.2),
+            0 8px 12px -5px rgba(0, 0, 0, 0.2),
+            -8px 0 12px -5px rgba(0, 0, 0, 0.2);
 }
 
 #contact-footer > div:nth-child(2) > div img {
@@ -896,21 +906,17 @@ footer>div:first-child{
     margin-right: 15px;
 }
 
-#contact-footer > div:nth-child(2) > div:hover {
-    transform: scale(1.05);
-    box-shadow: 8px 0 12px -5px rgba(0, 0, 0, 0.2),
-    0 8px 12px -5px rgba(0, 0, 0, 0.2),
-    -8px 0 12px -5px rgba(0, 0, 0, 0.2);
-}
-
 #contact-footer > div:nth-child(2) > div a,
 #contact-footer > div:nth-child(2) > div h2 {
-    font-size: 1rem;
+    font-size: 13px;
     color: rgb(126, 122, 122);
     margin: 2px 0;
     text-decoration: none;
     font-family: 'Rowdies', sans-serif;
+
+
 }
+
 
 
 /*social*/
@@ -959,3 +965,5 @@ footer>  div:first-child> div:nth-child(3) > div.social-icons a:hover {
 footer> div:first-child> div:nth-child(3) > div.social-icons a:hover img {
     opacity: 1;
 }
+
+
