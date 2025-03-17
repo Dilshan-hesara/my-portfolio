@@ -147,6 +147,50 @@
 
 
 
+        /*FOOTER*/
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    #contact-footer > div:nth-child(2) > div {
+        width: 90%;
+        padding: 10px;
+    }
+
+    #contact-footer > div:nth-child(2) > div img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #contact-footer > div:nth-child(2) > div a,
+    #contact-footer > div:nth-child(2) > div h2 {
+        font-size: 12px;
+    }
+
+    .footer-bottom h5 {
+        font-size: 10px;
+    }
+
+    footer > div:first-child > h3 {
+        font-size: 16px;
+
+    }
+
+        footer > div:nth-child(3) > div.social-icons {
+            flex-wrap: wrap;
+        }
+
+        footer > div:nth-child(3) > div.social-icons a {
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+        }
+
+        footer > div:nth-child(3) > div.social-icons img {
+            width: 20px;
+            height: 20px;
+        }
 
 
 
@@ -166,6 +210,7 @@
         margin-left: 32vw;
 
     }
+
 
 
     /*HOME*/
