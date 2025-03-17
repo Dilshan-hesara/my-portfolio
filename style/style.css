@@ -862,6 +862,7 @@ footer>div:first-child{
     align-items: center;
     justify-content: flex-start;
     padding: 20px;
+
 }
 
 #contact-footer > div:first-child {
@@ -930,7 +931,7 @@ footer>div:first-child>div:nth-child(3) {
 
 footer>  div:first-child>div:nth-child(3) > div.social-icons {
     display: flex;
-    /*flex-wrap: wrap;*/ /*gap ekk natuva */
+    flex-wrap: wrap; /*gap ekk natuva */
     gap: 10px;
     justify-content: center;
 }
