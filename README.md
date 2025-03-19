@@ -1,5 +1,6 @@
 # Dilshan-Hesara
 @[My Protfolio](https://dilshanhesara.vercel.app/) 
+@[Protfolio-Styles](https://dilshan-hesara.github.io/my-portfolio/)
 
 ## Assignment 01
 [Goals Doc](https://drive.google.com/file/d/1FW-k5dJ_xbadFVEwNkQF5hNZoqfvRipg/view?usp=sharing),
