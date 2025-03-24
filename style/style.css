@@ -171,19 +171,23 @@ nav>div>img:hover {
     font-weight: 800;
     font-size: 32px;
 
+    margin: 0;
 }
 #home>h3{
     font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 32px;
 
+    margin: 0;
 }
 
 
 #home>div:first-child>div>h1{
     font-family: "Sen", sans-serif;
-    font-size: 65px;
-
+    font-size: 75px;
+margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: -4px;
 
 }
 #home>div:first-child>div>h2{
@@ -241,6 +245,7 @@ nav>div>img:hover {
     gap: 50px;
 }
 
+
 .social-links a:hover {
     /*background-color: rgba(0, 0, 0, 0.5); !* Dark circle background *!*/
     border: 2px solid #000; /* Border around the circle */
@@ -248,6 +253,9 @@ nav>div>img:hover {
 
 .social-links a img {
     display: block;
+}
+.social-links  {
+
 }
 
 
@@ -320,6 +328,7 @@ nav>div>img:hover {
     font-weight: 800;
     font-size: 24px;
     color: #ACA48D;
+    margin-top: -40px;
 }
 
 #about>div:last-child>div>p{
