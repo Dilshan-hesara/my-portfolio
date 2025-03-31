@@ -99,73 +99,6 @@
 
 
 
-    /*    !*ABOUT*!*/
-
-
-        #about {
-            grid-template-columns: 1fr;
-            grid-template-rows: auto auto;
-            height: auto;
-            /*padding: 5px 10px;*/
-            /*padding: 5px 10px 10px 5px;*/
-
-            padding: 90px 0px 31px 0px
-        }
-
-
-        #about>div {
-            position: static;
-        }
-
-        #about>div>div {
-            position: static;
-            margin: 0 auto;
-            text-align: center;
-            /*left: 0;*/
-
-        }
-
-        #about>div {
-            position: static; /
-        }
-
-        #about>div>div {
-            position: static;
-            margin: 0 auto;
-            text-align: center;
-            /*left: 0;*/
-
-        }
-
-        #about>div:first-child {
-            order: 1;
-        }
-
-        #about>div:last-child {
-            order: 2;
-            /*margin-right: 0;*/
-
-            margin-left: 100px;
-            text-align: center;
-
-        }
-
-
-        .profile-picture-container img {
-            max-width: 300px;
-        }
-
-        #about>div:last-child>div>h2 {
-            font-size: 32px;
-        }
-
-        #about>div:last-child>div>h4 {
-            font-size: 20px;
-        }
-
-        #about>div:last-child>div>p {
-            font-size: 16px;
-        }
 
 
 
@@ -362,6 +295,75 @@
 
         font-size: 12px;
     }
+
+
+    /*ABOUT*/
+        #about {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+            height: auto;
+            /*padding: 5px 10px;*/
+            /*padding: 5px 10px 10px 5px;*/
+
+            padding: 90px 0px 31px 0px
+        }
+
+
+        #about>div {
+            position: static;
+        }
+
+        #about>div>div {
+            position: static;
+            margin: 0 auto;
+            text-align: center;
+            /*left: 0;*/
+
+        }
+
+        #about>div {
+            position: static; /
+        }
+
+        #about>div>div {
+            position: static;
+            margin: 0 auto;
+            text-align: center;
+            /*left: 0;*/
+
+        }
+
+        #about>div:first-child {
+            /*order: 1;*/
+        }
+
+        #about>div:last-child {
+            order: 2;
+            /*margin-right: 0;*/
+
+            margin-left: 100px;
+            text-align: center;
+
+        }
+
+
+        .profile-picture-container img {
+            max-width: 300px;
+        }
+
+        #about>div:last-child>div>h2 {
+            font-size: 32px;
+        }
+
+        #about>div:last-child>div>h4 {
+            font-size: 20px;
+        }
+
+        #about>div:last-child>div>p {
+            font-size: 16px;
+        }
+
+
 }
 
     /*    !* TAB!*/
