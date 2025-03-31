@@ -175,6 +175,47 @@
     }
 
 
+    /*SKILLS*/
+
+
+    #skills>div>h2 {
+        font-family: "Sen", sans-serif;
+
+        font-size: 26px;
+
+    }
+    #skills>div>p {
+        font-family: 'Arial', sans-serif;
+
+        font-size: 10px;
+
+    }
+
+    #skills>div:nth-child(2)>div:first-child>div>div{
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+    #skills>div:nth-child(2)>div:first-child>div>div>img{
+        width: 20px;
+        height: 20px;
+    }
+
+
+    #skills>div:nth-child(2)>div:first-child{
+
+        gap: 5px;
+    }
+
+    #skills>div:nth-child(2)>div:first-child>div{
+
+        gap: 5px;
+
+
+    }
+
 }
 
 /*    !*MOBILE MEDIUM*!*/
