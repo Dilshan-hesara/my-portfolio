@@ -745,6 +745,27 @@
 
         font-size: 13px;
     }
+
+
+
+    /*about*/
+
+    .profile-picture-container img {
+        max-width: 350px;
+    }
+
+    #about>div:last-child>div>h2 {
+        font-size: 36px;
+    }
+
+    #about>div:last-child>div>h4 {
+        font-size: 20px;
+        padding-top: 12px;
+    }
+
+    #about>div:last-child>div>p {
+        font-size: 15px;
+    }
 }
 
 
