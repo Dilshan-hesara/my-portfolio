@@ -925,6 +925,26 @@
         font-size: 15px;
     }
 
+
+
+
+    /*SKILLS*/
+
+
+    #skills>div>h2 {
+        font-family: "Sen", sans-serif;
+
+        font-size: 40px;
+
+    }
+    #skills>div>p {
+        font-family: 'Arial', sans-serif;
+
+        font-size: 18px;
+
+    }
+
+
 }
 
 
