@@ -680,6 +680,36 @@
     #about>div:last-child>div>p {
         font-size: 14px;
     }
+
+
+    /*SKILLS*/
+
+
+    #skills>div>h2 {
+        font-family: "Sen", sans-serif;
+
+        font-size: 34px;
+
+    }
+    #skills>div>p {
+        font-family: 'Arial', sans-serif;
+
+        font-size: 16px;
+
+    }
+
+    #skills>div:nth-child(2)>div:first-child>div>div{
+
+        width: 60px;
+        height: 60px;
+
+    }
+
+    #skills>div:nth-child(2)>div:first-child>div>div>img{
+        width: 40px;
+        height: 40px;
+    }
+
 }
 
 /*    !* LAPTOP !*/
