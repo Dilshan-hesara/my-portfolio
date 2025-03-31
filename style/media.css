@@ -393,6 +393,58 @@
 
     }
 
+
+    .profile-picture-container>img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+
+    #home>div:first-child>div>h3{
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 22px;
+
+    }
+    #home>h3{
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+
+    }
+
+
+    #home>div:first-child>div>h1{
+        font-family: "Sen", sans-serif;
+        font-size: 50px;
+
+
+    }
+    #home>div:first-child>div>h2{
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    #home>div:first-child>div>h2>mark {
+        background-color:#E2E2E2;
+        color: #A59D84;
+        padding: 3px 5px;
+        border-radius: 5px;
+    }
+
+
+    #home>div:first-child>div>p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+
+    .connect-button {
+
+        font-size: 13px;
+    }
 }
 
 /*    !* LAPTO LARGE!*/
@@ -401,6 +453,8 @@
     #home{
         background-color: darkgoldenrod;
     }
+
+
 
 }
 
