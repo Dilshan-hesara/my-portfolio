@@ -834,6 +834,41 @@
         height: 40px;
     }
 
+
+    /*    !*EDU*!*/
+
+        #education > div > div {
+            width: calc(50% - 20px);
+        }
+
+
+
+        #education > div > div {
+            flex-direction: column ;
+            align-items: center;
+
+        }
+
+        #education img {
+            margin-bottom: 10px;
+        }
+
+
+    #education img {
+        width: 100px;
+        height: 100px;
+        border-radius: 8px;
+        object-fit: cover;
+        border: 2px solid #333;
+
+    }
+
+    #education p {
+        font-size: 14px;
+
+        font-family: 'Roboto Mono', monospace;
+    }
+
 }
 
 /*    !* LAPTOP !*/
@@ -1033,8 +1068,6 @@
     #about>div:last-child>div>p {
         font-size: 16px;
     }
-
-
 
 
 
