@@ -216,6 +216,71 @@
 
     }
 
+
+    /*    !*EDU*!*/
+
+
+
+
+    #education > div > div {
+        flex-direction: column ;
+        align-items: center;
+
+    }
+
+    #education img {
+        margin-bottom: 6px;
+    }
+
+
+    #education img {
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        object-fit: cover;
+        border: 2px solid #333;
+
+    }
+
+    #education p {
+        font-size: 10px;
+    }
+
+
+    #education h2 {
+        font-size: 26px;
+
+    }
+
+
+    #education > div > div {
+        width: 100%;
+    }
+
+    #education > div:last-child {
+        padding: 15px;
+    }
+
+    #education > div:last-child h5 {
+        font-size: 15px;
+    }
+
+    #education > div:first-child > div {
+        display: flex;
+
+        flex-direction: row;
+    }
+
+
+    #education > div > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #education img {
+        margin-bottom: 10px;
+    }
+
 }
 
 /*    !*MOBILE MEDIUM*!*/
@@ -424,8 +489,48 @@
 
         gap: 5px;
 
+    }
+
+
+
+    /*EDUCATION*/
+
+    #education h2 {
+        font-size: 32px;
 
     }
+
+    #education > div > div {
+        width: 100%;
+    }
+
+    #education > div:last-child {
+        padding: 15px;
+    }
+
+    #education > div:last-child h5 {
+        font-size: 15px;
+    }
+
+    #education > div:first-child > div {
+        display: flex;
+
+        flex-direction: row;
+    }
+
+    #education > div:last-child p {
+        font-size: 10px;
+    }
+
+    #education > div > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #education img {
+        margin-bottom: 10px;
+    }
+
 }
 
 
@@ -638,6 +743,40 @@
 
     }
 
+
+
+    /*    !*EDU*!*/
+
+        #education > div > div {
+            width: 100%;
+        }
+
+        #education > div:last-child {
+            padding: 15px;
+        }
+
+        #education > div:last-child h5 {
+            font-size: 15px;
+        }
+
+        #education > div:first-child > div {
+            display: flex;
+
+            flex-direction: row;
+        }
+
+        #education > div:last-child p {
+            font-size: 10px;
+        }
+
+        #education > div > div {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #education img {
+            margin-bottom: 10px;
+        }
 
 }
 
