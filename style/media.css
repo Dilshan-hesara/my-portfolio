@@ -763,9 +763,14 @@
         padding-top: 12px;
     }
 
+    #about>div>div{
+        left: -10px;
+    }
+
     #about>div:last-child>div>p {
         font-size: 15px;
     }
+
 }
 
 
