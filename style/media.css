@@ -1121,6 +1121,11 @@
 
     /*Education*/
 
+    #education h2 {
+        font-size: 38px;
+
+    }
+
 
 
     #education > div > div {
@@ -1139,6 +1144,8 @@
 
         font-family: 'Roboto Mono', monospace;
     }
+
+
 
 }
 
