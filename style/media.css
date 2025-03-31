@@ -257,13 +257,13 @@
     }
 
     #about>div:last-child>div>h2 {
-        margin-top: 20px;
+        margin-top: 24px;
         font-size: 15px;
     }
 
     #about>div:last-child>div>h4 {
-        font-size: 20px;
-        padding-top: 22px;
+        font-size: 12px;
+        padding-top: 25px;
 
     }
 
