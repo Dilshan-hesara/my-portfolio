@@ -257,8 +257,8 @@
     }
 
     #about>div:last-child>div>h2 {
-        margin-top: 24px;
-        font-size: 15px;
+        margin-top: 20px;
+        font-size: 25px;
     }
 
     #about>div:last-child>div>h4 {
@@ -268,7 +268,7 @@
     }
 
     #about>div:last-child>div>p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
 }
