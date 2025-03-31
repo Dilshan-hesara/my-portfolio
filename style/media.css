@@ -26,13 +26,39 @@
 
     .profile-picture-container > img {
         width: 100%;
-        max-width: 90px;
+        max-width: 90px;!important;
     }
 
 }
 
     /*MOBILE MEDIUM*/
 @media all and  (max-width:375px) {
+
+    #home{
+        background-color: blue;
+    }
+
+    #home > div:first-child > div > h1 {
+        font-size: 22px;
+    }
+
+    #home > div:first-child > div > h2 {
+        font-size: 18px;
+    }
+
+    #home > div:first-child > div > h3 {
+        font-size: 16px;
+    }
+
+    .connect-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .profile-picture-container > img {
+        width: 100%;
+        max-width: 160px;
+    }
 
 }
 
@@ -561,129 +587,129 @@
 
     /*LAPTOP */
 
-    /*@media all and  (max-width:1024px) {*/
+    @media all and  (max-width:1024px) {
 
-    /*    #home {*/
-    /*        !*background-color: #fd0e0e;*!*/
+        #home {
+            background-color: #fd0e0e;
 
-    /*        padding-top: 40px;*/
-    /*    }*/
-
-
-
-    /*    #home>div:last-child {*/
-    /*        order: 1;*/
-    /*        margin-left: 0;*/
-    /*        text-align: center;*/
-    /*    }*/
-
-    /*    .profile-picture-container>img {*/
-    /*        width: 100%;*/
-    /*        max-width: 350px;*/
-    /*    }*/
-
-
-    /*    #home>div:first-child>div>h3{*/
-    /*        font-family: 'Inter', sans-serif;*/
-    /*        font-weight: 800;*/
-    /*        font-size:10px;*/
-
-    /*    }*/
-    /*    #home>h3{*/
-    /*        font-family: 'Inter', sans-serif;*/
-    /*        font-weight: 800;*/
-    /*        font-size: 10px;*/
-
-    /*    }*/
-
-
-    /*    #home>div:first-child>div>h1{*/
-    /*        font-family: "Sen", sans-serif;*/
-    /*        font-size: 10px;*/
-
-
-    /*    }*/
-    /*    #home>div:first-child>div>h2{*/
-    /*        font-family: 'Inter', sans-serif;*/
-    /*        font-weight: 800;*/
-    /*        font-size: 18px;*/
-    /*    }*/
-
-    /*    #home>div:first-child>div>h2>mark {*/
-    /*        background-color:#E2E2E2;*/
-    /*        color: #A59D84;*/
-    /*        padding: 3px 5px;*/
-    /*        border-radius: 5px;*/
-    /*    }*/
-
-
-    /*    #home>div:first-child>div>p{*/
-    /*        font-family: 'Roboto', sans-serif;*/
-    /*        font-weight: 100;*/
-    /*    }*/
-    /*}*/
-
-    /*!*LAPTOP LARGE*!*/
-
-    /*@media all and  (max-width:1440px) {*/
-
-    /*    #home {*/
-
-    /*        padding-top: 40px;*/
-    /*    }*/
+            padding-top: 40px;
+        }
 
 
 
-    /*    #home>div:last-child {*/
-    /*        order: 1;*/
-    /*        margin-left: 0;*/
-    /*        text-align: center;*/
-    /*    }*/
+        #home>div:last-child {
+            order: 1;
+            margin-left: 0;
+            text-align: center;
+        }
 
-    /*    .profile-picture-container>img {*/
-    /*        width: 100%;*/
-    /*        max-width: 350px;*/
-    /*    }*/
-
-
-    /*    #home>div:first-child>div>h3{*/
-    /*        font-family: 'Inter', sans-serif;*/
-    /*        font-weight: 800;*/
-    /*        font-size: 30px;*/
-
-    /*    }*/
-    /*    #home>h3{*/
-    /*        font-family: 'Inter', sans-serif;*/
-    /*        font-weight: 800;*/
-    /*        font-size: 50px;*/
-
-    /*    }*/
+        .profile-picture-container>img {
+            width: 100%;
+            max-width: 350px;
+        }
 
 
-    /*    #home>div:first-child>div>h1{*/
-    /*        font-family: "Sen", sans-serif;*/
-    /*        font-size: 65px;*/
+        #home>div:first-child>div>h3{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size:10px;
+
+        }
+        #home>h3{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 10px;
+
+        }
 
 
-    /*    }*/
-    /*    #home>div:first-child>div>h2{*/
-    /*        font-family: 'Inter', sans-serif;*/
-    /*        font-weight: 800;*/
-    /*        font-size: 18px;*/
-    /*    }*/
-
-    /*    #home>div:first-child>div>h2>mark {*/
-    /*        background-color:#E2E2E2;*/
-    /*        color: #A59D84;*/
-    /*        padding: 3px 5px;*/
-    /*        border-radius: 5px;*/
-    /*    }*/
+        #home>div:first-child>div>h1{
+            font-family: "Sen", sans-serif;
+            font-size: 10px;
 
 
-    /*    #home>div:first-child>div>p{*/
-    /*        font-family: 'Roboto', sans-serif;*/
-    /*        font-weight: 100;*/
-    /*    }*/
+        }
+        #home>div:first-child>div>h2{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+        }
+
+        #home>div:first-child>div>h2>mark {
+            background-color:#E2E2E2;
+            color: #A59D84;
+            padding: 3px 5px;
+            border-radius: 5px;
+        }
 
 
-    /*}*/
+        #home>div:first-child>div>p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+        }
+    }
+
+    /*LAPTOP LARGE*/
+
+    @media all and  (max-width:1440px) {
+
+        #home {
+
+            padding-top: 40px;
+        }
+
+
+
+        #home>div:last-child {
+            order: 1;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .profile-picture-container>img {
+            width: 100%;
+            max-width: 350px;
+        }
+
+
+        #home>div:first-child>div>h3{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 30px;
+
+        }
+        #home>h3{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 50px;
+
+        }
+
+
+        #home>div:first-child>div>h1{
+            font-family: "Sen", sans-serif;
+            font-size: 65px;
+
+
+        }
+        #home>div:first-child>div>h2{
+            font-family: 'Inter', sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+        }
+
+        #home>div:first-child>div>h2>mark {
+            background-color:#E2E2E2;
+            color: #A59D84;
+            padding: 3px 5px;
+            border-radius: 5px;
+        }
+
+
+        #home>div:first-child>div>p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+        }
+
+
+    }
