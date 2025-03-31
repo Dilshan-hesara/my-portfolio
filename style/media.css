@@ -1038,7 +1038,22 @@
 
 
 
-    /*skills*/
+
+    /*SKILLS*/
+
+
+    #skills>div>h2 {
+        font-family: "Sen", sans-serif;
+
+        font-size: 44px;
+
+    }
+    #skills>div>p {
+        font-family: 'Arial', sans-serif;
+
+        font-size: 20px;
+
+    }
 
 
 }
