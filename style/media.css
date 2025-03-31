@@ -294,13 +294,15 @@
 
     #home{
         background-color: #66ae2d;
+
+
     }
 
 
     #home {
         grid-template-columns: 1fr; /* Single clome ekk gatta */
         grid-template-rows: auto auto; /*poto eka fist ,text bottm*/
-        height: auto;
+        height: 100%;
 
 
         padding: 86px 0px 30px 0px;
