@@ -373,6 +373,18 @@
         height: 40px;
     }
 
+
+    #skills>div:nth-child(2)>div:first-child{
+
+        gap: 5px;
+    }
+
+    #skills>div:nth-child(2)>div:first-child>div{
+
+        gap: 5px;
+
+
+    }
 }
 
 
