@@ -153,19 +153,26 @@
 
     #about>div:last-child>div>h2 {
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #about>div:last-child>div>h4 {
-        font-size: 12px;
+        font-size: 10px;
         padding-top: 25px;
 
     }
 
     #about>div:last-child>div>p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
+
+
+    #about>div:last-child>div:first-child>a{
+
+        font-size: 10px;
+
+    }
 
 
 }
