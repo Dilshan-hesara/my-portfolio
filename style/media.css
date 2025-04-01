@@ -1404,6 +1404,24 @@
     }
 
 
+    /*CONTACT*/
+
+
+
+    .input-group input,
+    .input-group textarea {
+        font-size: 15px;
+    }
+
+
+    #contact button {
+        font-size: 15px;
+    }
+
+
+
+
+
 }
 
 
