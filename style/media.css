@@ -1259,6 +1259,22 @@
 
 
 
+    /*CONTACT*/
+
+
+
+    .input-group input,
+    .input-group textarea {
+        font-size: 14px;
+    }
+
+
+    #contact button {
+        font-size: 14px;
+    }
+
+
+
 }
 
 
