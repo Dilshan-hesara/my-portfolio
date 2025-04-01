@@ -1089,6 +1089,37 @@
         font-family: 'Roboto Mono', monospace;
     }
 
+
+
+    /*CONTACT*/
+
+
+        #contact {
+            padding: 30px 15px;
+        }
+
+        #contact h2 {
+            font-size: 28px;
+            margin-top: 50px;
+        }
+
+        #contact p {
+            font-size: 14px;
+        }
+
+    .input-group input,
+    .input-group textarea {
+        font-size: 14px;
+    }
+
+
+    #contact button {
+        font-size: 14px;
+    }
+
+
+
+
 }
 
 /*    !* LAPTOP !*/
