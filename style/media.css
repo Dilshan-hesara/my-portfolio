@@ -1120,6 +1120,22 @@
 
 
 
+    /*!*FOOTER*!*!*/
+
+            #contact-footer > div:nth-child(2) {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            #contact-footer > div:nth-child(2) > div {
+                width: 100%;
+                max-width: none;
+            }
+
+            footer > div:first-child > h3 {
+                font-size: 26px;
+            }
+
 }
 
 /*    !* LAPTOP !*/
@@ -1789,6 +1805,8 @@
 /*            width: 20px;*/
 /*            height: 20px;*/
 /*        }*/
+
+
 
 
 
