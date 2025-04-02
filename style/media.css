@@ -1479,6 +1479,13 @@
     }
 
 
+        /*PROJECTS*/
+
+    section#projects .image-container {
+        /*width: 200px;*/
+        height: 240px;
+
+    }
 
 }
 
