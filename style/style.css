@@ -687,10 +687,15 @@ section#projects .image-container .details a {
     color: #fff;
     text-decoration: none;
     border: 1px solid #fff;
-    padding: 5px 10px;
+    padding: 3px 6px;
     border-radius: 4px;
     font-size: 0.8em;
     transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+section#projects .image-container .details>p{
+padding: 10px;
 }
 
 section#projects .image-container .details a:hover {
@@ -699,6 +704,22 @@ section#projects .image-container .details a:hover {
 }
 
 
+
+
+section#projects .image-container .details h4 {
+    font-size: 0.9em;
+    font-family: 'Josefin Sans ',monospace;
+}
+
+section#projects .image-container .details p {
+    font-size: 0.75em;
+    font-family: 'Poiret One ',monospace;
+}
+
+section#projects .image-container .details a {
+    font-size: 0.7em;
+    font-family: 'Saira', serif ;
+}
 
 
     /*CONTACT*/
