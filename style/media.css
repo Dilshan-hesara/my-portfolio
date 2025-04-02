@@ -1361,6 +1361,24 @@
 
 
 
+    /*!*FOOTER*!*!*/
+
+    #contact-footer > div:nth-child(2) {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #contact-footer > div:nth-child(2) > div {
+        width: 100%;
+        max-width: none;
+    }
+
+    footer > div:first-child >div > h3 {
+        font-size: 22px;
+    }
+
+
+
 }
 
 
