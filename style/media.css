@@ -1640,6 +1640,15 @@
     footer > div:first-child >div > h3 {
         font-size: 22px;
     }
+
+
+    /*PROJECTS*/
+
+    section#projects .image-container {
+        /*width: 200px;*/
+        /*height: 280px;*/
+
+    }
 }
 
 
