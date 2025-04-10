@@ -33,4 +33,4 @@
 ## Assignment 05
 
 [Responsive Protfolio](https://dilshanhesara.vercel.app/),
-[Case 02](https://github.com/Dilshan-hesara/my-portfolio/blob/style/style/media.css)
+[Media Query Css](https://github.com/Dilshan-hesara/my-portfolio/blob/style/style/media.css)
