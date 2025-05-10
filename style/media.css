@@ -1717,6 +1717,7 @@
 }
 
 
+    /*MOBILE / TAB NAV BAR*/
 
 @media (min-width: 1440px) {
     .toggle_btn {
@@ -1724,7 +1725,18 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .toggle_btn {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
 
+    .dropdown_menu {
+        display: none;
+    }
+}
 
 
 
