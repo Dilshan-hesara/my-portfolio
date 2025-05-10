@@ -575,6 +575,25 @@ section#projects {
 
 }
 
+.project-title {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+    font-family: 'Sen', sans-serif;
+    transition: opacity 0.3s ease;
+
+    white-space: nowrap; /* Ensure the text stays in a single line */
+
+}
+
+.image-container:hover .project-title {
+    opacity: 0;
+}
 
 section#projects > div {
     display: flex;
