@@ -1709,7 +1709,7 @@
 
     /*PROJECTS*/
 
-    
+
     section#projects .image-container {
         /*width: 200px;*/
         /*height: 280px;*/
@@ -1734,6 +1734,7 @@
         right: 1rem;
     }
 
+    
     .dropdown_menu {
         display: none;
     }
