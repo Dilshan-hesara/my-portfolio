@@ -72,6 +72,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -94,6 +97,35 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
         </nav>
+
+
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+<!--        <div class="dropdown_menu">-->
+<!--            <li><a href="#home">Home</a></li>-->
+<!--            <li><a href="#about">About</a></li>-->
+<!--            <li><a href="#skills">Skills</a></li>-->
+<!--            <li><a href="#education">Education</a></li>-->
+<!--            <li><a href="#projects">Projects</a></li>-->
+<!--            <li><a href="#contact">Contact</a></li>-->
+<!--        </div>-->
+
+        <!-- Overlay Div -->
+        <div class="overlay"></div>
+
+        <!-- Dropdown Menu -->
+        <div class="dropdown_menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+
+
     </header>
 
 
@@ -128,7 +160,7 @@
                     </div>
 
                     <div>
-                        <a href="https://www.youtube.com/@Dilshan-Hesara" class="connect-button" download>Connect with me:</a>
+                        <a href="assets/images/pdf/Dilshan-Hesara'sCV.pdf" class="connect-button" download >Explore My CV :</a>
 
                     </div>
 
@@ -177,7 +209,7 @@
                 <p>I am a constantly evolving web developer passionate about designing captivating web solutions with great attention to detail. I also enjoy developing 2d games and applications for edutainment and gamification, blending creativity with technology.</p>
 
 
-                <a href="#reachme" class="connect-button">S E E  MORE:</a>
+                <a href="#contact-footer" class="connect-button">S E E  MORE:</a>
 
 
 
@@ -582,6 +614,121 @@
     <script>
         AOS.init();
     </script>
+    <script>
+        // const toggleBtn = document.querySelector('.toggle_btn');
+        // const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        // const dropDownMenu = document.querySelector('.dropdown_menu');
+        // const menuLinks = document.querySelectorAll('.dropdown_menu a');
+        //
+        // toggleBtn.addEventListener("click", function () {
+        //     dropDownMenu.classList.toggle('open');
+        //     const isOpen = dropDownMenu.classList.contains('open');
+        //
+        //     toggleBtnIcon.className = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+        // });
+        //
+        // // Close menu when a link is clicked (only for mobile/tablet)
+        // menuLinks.forEach(link => {
+        //     link.addEventListener('click', () => {
+        //         if (window.innerWidth <= 768) {
+        //             dropDownMenu.classList.remove('open');
+        //             toggleBtnIcon.className = 'fa-solid fa-bars';
+        //         }
+        //     });
+        // });
+        //
+        // // Close menu when a link is clicked (only for mobile/tablet)
+        // menuLinks.forEach(link => {
+        //     link.addEventListener('click', () => {
+        //         if (window.innerWidth <= 768) {
+        //             dropDownMenu.classList.remove('open');
+        //             toggleBtnIcon.className = 'fa-solid fa-bars';
+        //         }
+        //     });
+        // });
+        //
+        // // Close menu when scrolling (only for mobile/tablet)
+        // window.addEventListener('scroll', () => {
+        //     if (window.innerWidth <= 768 && dropDownMenu.classList.contains('open')) {
+        //         dropDownMenu.classList.remove('open');
+        //         toggleBtnIcon.className = 'fa-solid fa-bars';
+        //     }
+        // });
+
+
+
+        // const toggleBtn = document.querySelector('.toggle_btn');
+        // const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        // const dropDownMenu = document.querySelector('.dropdown_menu');
+        // const overlay = document.querySelector('.overlay');
+        // const menuLinks = document.querySelectorAll('.dropdown_menu a');
+        //
+        //
+        // // Toggle menu on button click
+        // toggleBtn.addEventListener("click", function () {
+        //     dropDownMenu.classList.toggle('open');
+        //     overlay.classList.toggle('active');
+        //     const isOpen = dropDownMenu.classList.contains('open');
+        //
+        //     toggleBtnIcon.className = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+        // });
+        //
+        // // Close menu when a link is clicked (only for mobile/tablet)
+        // menuLinks.forEach(link => {
+        //     link.addEventListener('click', () => {
+        //         if (window.innerWidth <= 768) {
+        //             dropDownMenu.classList.remove('open');
+        //             overlay.classList.remove('active');
+        //             toggleBtnIcon.className = 'fa-solid fa-bars';
+        //         }
+        //     });
+        // });
+        //
+        // // Close menu when scrolling (only for mobile/tablet)
+        // window.addEventListener('scroll', () => {
+        //     if (window.innerWidth <= 768 && dropDownMenu.classList.contains('open')) {
+        //         dropDownMenu.classList.remove('open');
+        //         overlay.classList.remove('active');
+        //         toggleBtnIcon.className = 'fa-solid fa-bars';
+        //     }
+        // });
+
+
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const dropdownMenu = document.querySelector('.dropdown_menu');
+        const overlay = document.querySelector('.overlay');
+
+        toggleBtn.addEventListener('click', () => {
+            dropdownMenu.classList.toggle('open');
+            overlay.classList.toggle('show');
+        });
+
+        // Close menu on scroll
+        window.addEventListener('scroll', () => {
+            dropdownMenu.classList.remove('open');
+            overlay.classList.remove('show');
+        });
+
+    </script>
+<!--    <script>-->
+<!--        /*-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;Toggle btn-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/-->
+
+<!--        const toggleBtn = document.querySelector('.toggle_btn');-->
+<!--        const toggleBtnIcon = document.querySelector('.toggle_btn i');-->
+<!--        const dropDownMenu = document.querySelector('.dropdown_menu');-->
+
+<!--        toggleBtn.addEventListener("click",function (){-->
+<!--            dropDownMenu.classList.toggle('open');-->
+<!--            const isOpen = dropDownMenu.classList.contains('open');-->
+
+<!--            toggleBtnIcon.classList = isOpen-->
+<!--                ? 'fa-solid fa-xmark'-->
+<!--                : 'fa-solid fa-bars'-->
+<!--        })-->
+
+
+
+<!--    </script>-->
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
