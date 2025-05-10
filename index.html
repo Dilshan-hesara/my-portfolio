@@ -57,6 +57,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+SC:wght@100..900&family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Sigmar&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+
 </head>
 
 <body>
@@ -85,17 +95,27 @@
 <!--            home -->
 
 
-        <section id="home">
+        <section id="home"  data-aos="fade-up"
+                 data-aos-duration="3000">
 
             <div>
 
-                <div>
-                    <h3>Hello It’s Me</h3>
-                    <h1>Dilshan hesara</h1>
-                    <h2>And I'm a <mark>Software Developer</mark></h2>
-                    <p>Constantly focused on learning and expanding my expertise, crafting ever-improving, high-performing solutions</p>
+                <div >
+                    <h3 data-aos="fade-down-right">Hello It’s Me</h3>
+                    <h1 data-aos="fade-down-right">Dilshan hesara</h1>
 
-                    <div class="social-links">
+
+<!--                    <div>-->
+<!--                        <h1>I'm a <span class="auto-type"></span></h1>-->
+
+<!--                    </div>-->
+<!--                    <h2>And I'm a <mark>Software Developer</mark></h2>-->
+
+
+                    <h2 data-aos="fade-down-right">And I'm a <mark class="auto-type"></mark></h2>
+                    <p data-aos="fade-down-right">Constantly focused on learning and expanding my expertise, crafting ever-improving, high-performing solutions</p>
+
+                    <div class="social-links"  data-aos="zoom-out-left">
                         <a href="https://www.youtube.com/@Dilshan-Hesara"><img src="assets/images/01.png" width="25" alt="YouTube"></a>
                         <a href="https://www.linkedin.com/in/dilshan-hesara/"><img src="assets/images/02.png" width="25" alt="LinkedIn"></a>
                         <a href="https://github.com/Dilshan-hesara"><img src="assets/images/03.png" width="25" alt="GitHub"></a>
@@ -113,7 +133,8 @@
 
 
 
-            <div>
+            <div data-aos="fade-up"
+                 data-aos-anchor-placement="center-bottom">
 
                 <div class="profile-picture-container">
                     <img src="assets/images/P01.png" alt="profile photo">
@@ -551,6 +572,26 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+
+        var typed = new Typed(".auto-type",{
+            strings: ["Software Developer"," BACKEND DEVELOPER","FRONTEND DEVELOPER","SOFTWARE ENGINEER"],
+            typeSpeed: 100,
+            backSpeed:50,
+            loop: true
+
+        })
+
+    </script>
 
 </body>
 </html>
