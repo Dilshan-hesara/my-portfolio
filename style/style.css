@@ -1037,6 +1037,71 @@ footer>div:first-child>div:first-child{
 
 
 
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 4.5rem;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+
+    border: 1px solid #f8f8f8;
+    overflow: hidden;
+
+    z-index: 999;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+    transform: translateY(-10px);
+    transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.9s ease;
+}
+
+.dropdown_menu.open {
+    display: block;
+
+}
+
+.dropdown_menu li {
+    padding: 1rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown_menu li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+
+    font-family: "Roboto Condensed", sans-serif;}
+
+.dropdown_menu li a:hover {
+    color: #807d7d;
+}
+
+
+
+
+.overlay {
+    position: fixed;
+    top: 64px;
+
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 998;
+    display: none;
+}
+
+.overlay.show {
+    display: block;
+}
+
+
 
 
 
