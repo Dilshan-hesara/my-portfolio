@@ -488,7 +488,8 @@
 
     <!--    contact-->
 
-    <section id="contact">
+    <form id="contact">
+
         <div>
             <div>
                 <h2 data-aos="zoom-in-up" data-aos-duration="1500" >Let's get in touch!</h2>
@@ -519,12 +520,13 @@
             <!-- Send Button -->
 
             <div>
-                <button type="submit" >S E N D</button>
+                <button type="submit"  id="send-btn">S E N D</button>
             </div>
         </div>
 
 
-    </section>
+
+    </form>
 
 
 <!--    footer-->
@@ -650,6 +652,24 @@
 
     </script>
 
+    <script>
+        document
+            .getElementById('contact')
+            .addEventListener('submit', function(e) {
+                e.preventDefault();
 
+                const name = encodeURIComponent(document.getElementById('full-name').value.trim());
+                const email = encodeURIComponent(document.getElementById('email').value.trim());
+                const msg  = encodeURIComponent(document.getElementById('msg').value.trim());
+
+                const text = `Name: ${name}%0AEmail: ${email}%0AMessage: ${msg}`;
+
+                const phone = '+94713137550';
+
+                const url = `https://wa.me/${phone}?text=${text}`;
+
+                window.open(url, '_blank');
+            });
+    </script>
 </body>
 </html>
