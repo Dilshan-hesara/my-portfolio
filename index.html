@@ -615,83 +615,7 @@
         AOS.init();
     </script>
     <script>
-        // const toggleBtn = document.querySelector('.toggle_btn');
-        // const toggleBtnIcon = document.querySelector('.toggle_btn i');
-        // const dropDownMenu = document.querySelector('.dropdown_menu');
-        // const menuLinks = document.querySelectorAll('.dropdown_menu a');
-        //
-        // toggleBtn.addEventListener("click", function () {
-        //     dropDownMenu.classList.toggle('open');
-        //     const isOpen = dropDownMenu.classList.contains('open');
-        //
-        //     toggleBtnIcon.className = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
-        // });
-        //
-        // // Close menu when a link is clicked (only for mobile/tablet)
-        // menuLinks.forEach(link => {
-        //     link.addEventListener('click', () => {
-        //         if (window.innerWidth <= 768) {
-        //             dropDownMenu.classList.remove('open');
-        //             toggleBtnIcon.className = 'fa-solid fa-bars';
-        //         }
-        //     });
-        // });
-        //
-        // // Close menu when a link is clicked (only for mobile/tablet)
-        // menuLinks.forEach(link => {
-        //     link.addEventListener('click', () => {
-        //         if (window.innerWidth <= 768) {
-        //             dropDownMenu.classList.remove('open');
-        //             toggleBtnIcon.className = 'fa-solid fa-bars';
-        //         }
-        //     });
-        // });
-        //
-        // // Close menu when scrolling (only for mobile/tablet)
-        // window.addEventListener('scroll', () => {
-        //     if (window.innerWidth <= 768 && dropDownMenu.classList.contains('open')) {
-        //         dropDownMenu.classList.remove('open');
-        //         toggleBtnIcon.className = 'fa-solid fa-bars';
-        //     }
-        // });
 
-
-
-        // const toggleBtn = document.querySelector('.toggle_btn');
-        // const toggleBtnIcon = document.querySelector('.toggle_btn i');
-        // const dropDownMenu = document.querySelector('.dropdown_menu');
-        // const overlay = document.querySelector('.overlay');
-        // const menuLinks = document.querySelectorAll('.dropdown_menu a');
-        //
-        //
-        // // Toggle menu on button click
-        // toggleBtn.addEventListener("click", function () {
-        //     dropDownMenu.classList.toggle('open');
-        //     overlay.classList.toggle('active');
-        //     const isOpen = dropDownMenu.classList.contains('open');
-        //
-        //     toggleBtnIcon.className = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
-        // });
-        //
-        // // Close menu when a link is clicked (only for mobile/tablet)
-        // menuLinks.forEach(link => {
-        //     link.addEventListener('click', () => {
-        //         if (window.innerWidth <= 768) {
-        //             dropDownMenu.classList.remove('open');
-        //             overlay.classList.remove('active');
-        //             toggleBtnIcon.className = 'fa-solid fa-bars';
-        //         }
-        //     });
-        // });
-        //
-        // // Close menu when scrolling (only for mobile/tablet)
-        // window.addEventListener('scroll', () => {
-        //     if (window.innerWidth <= 768 && dropDownMenu.classList.contains('open')) {
-        //         dropDownMenu.classList.remove('open');
-        //         overlay.classList.remove('active');
-        //         toggleBtnIcon.className = 'fa-solid fa-bars';
-        //     }
-        // });
 
 
         const toggleBtn = document.querySelector('.toggle_btn');
@@ -703,47 +627,18 @@
             overlay.classList.toggle('show');
         });
 
-        // Close menu on scroll
         window.addEventListener('scroll', () => {
             dropdownMenu.classList.remove('open');
             overlay.classList.remove('show');
         });
 
     </script>
-<!--    <script>-->
-<!--        /*-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;Toggle btn-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/-->
 
-<!--        const toggleBtn = document.querySelector('.toggle_btn');-->
-<!--        const toggleBtnIcon = document.querySelector('.toggle_btn i');-->
-<!--        const dropDownMenu = document.querySelector('.dropdown_menu');-->
-
-<!--        toggleBtn.addEventListener("click",function (){-->
-<!--            dropDownMenu.classList.toggle('open');-->
-<!--            const isOpen = dropDownMenu.classList.contains('open');-->
-
-<!--            toggleBtnIcon.classList = isOpen-->
-<!--                ? 'fa-solid fa-xmark'-->
-<!--                : 'fa-solid fa-bars'-->
-<!--        })-->
-
-
-
-<!--    </script>-->
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <script>
 
-        var typed = new Typed(".auto-type",{
-            strings: ["Software Developer"," BACKEND DEVELOPER","FRONTEND DEVELOPER","SOFTWARE ENGINEER"],
-            typeSpeed: 100,
-            backSpeed:50,
-            loop: true
-
-        })
-
-    </script>
 
 </body>
 </html>
