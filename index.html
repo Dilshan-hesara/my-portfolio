@@ -662,9 +662,27 @@
                 const email = encodeURIComponent(document.getElementById('email').value.trim());
                 const msg  = encodeURIComponent(document.getElementById('msg').value.trim());
 
+                const nameRegex = /^[A-Za-z\s]+$/;
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (!name || !email || !msg) {
+                    alert("All fields are required!");
+                    return;
+                }
+
+                if (!nameRegex.test(name)) {
+                    alert("Name must contain only letters.");
+                    return;
+                }
+
+                if (!emailRegex.test(email)) {
+                    alert("Please enter a valid email address.");
+                    return;
+                }
+
                 const text = `Name: ${name}%0AEmail: ${email}%0AMessage: ${msg}`;
 
-                const phone = '+94713137550';
+                const phone = '+94703150104';
 
                 const url = `https://wa.me/${phone}?text=${text}`;
 
