@@ -733,7 +733,7 @@
 
         <!-- Footer Bottom -->
         <div class="footer-bottom">
-            <h5>Copyright © 2025 Dilshan Hesara. All rights reserved</h5>
+            <h5>Copyright © <span id="year"></span> Dilshan Hesara. All rights reserved</h5>
 
         </div>
     </footer>
@@ -743,6 +743,11 @@
     <script>
         AOS.init();
     </script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+
     <script>
 
 
