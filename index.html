@@ -2,10 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dilshan-Hesara</title>
+    <title>Dilshan Hesara | Dev & Design</title>
 
-    <meta name=keyword" content="html" >
-    <meta name=description" content="welcome to my website. I'am Dilshan" >
+<!--    <link id="favicon-light" rel="icon" href="assets/images/logo/dilshan-light.png" type="image/icon">-->
+<!--    <link id="favicon-dark" rel="icon" href="assets/images/logo/dilshan-dark.png" type="image/icon">-->
+
+<!--    <script>-->
+<!--        // Check and change favicon based on color scheme-->
+<!--        function updateFavicon() {-->
+<!--            var darkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;-->
+<!--            var favicon = document.getElementById('favicon-light');-->
+<!--            var darkFavicon = document.getElementById('favicon-dark');-->
+
+<!--            if (darkMode) {-->
+<!--                darkFavicon.setAttribute('rel', 'icon');-->
+<!--                favicon.setAttribute('rel', 'alternate icon');-->
+<!--            } else {-->
+<!--                favicon.setAttribute('rel', 'icon');-->
+<!--                darkFavicon.setAttribute('rel', 'alternate icon');-->
+<!--            }-->
+<!--        }-->
+
+<!--        // Initialize on load-->
+<!--        window.addEventListener('load', updateFavicon);-->
+
+<!--        // Change favicon dynamically when color scheme changes-->
+<!--        window.matchMedia('(prefers-color-scheme: dark)').addListener(updateFavicon);-->
+<!--    </script>-->
+
+    <link rel="icon" href="assets/images/logo/dilshan-dark.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" href="assets/images/logo/dilshan-light.png" media="(prefers-color-scheme: dark)">
+
+
+    <meta name="keywords" content="Dilshan Hesara, Dilshan hesara , dilshan hesara,web developer, HTML, CSS, JavaScript, portfolio, creative developer , engineering portfolio, aviation technician, maritime engineer">
+
+    <meta name=description" content="Welcome to the official space of Dilshan Hesara – Crafting modern, creative web solutions." >
     <meta name="author" content="Dilshan Hesara">
     <meta name="viewport" content="width = device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css"></link>
@@ -74,6 +105,9 @@
 
 
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+
 
 </head>
 
@@ -346,19 +380,19 @@
                     <h1 class="project-title">YOGURT FACTORY</h1>
                     <div class="details">
 
-                        <h4>Yogurt Factory Production</h4>
+                        <h4>Yogurt Factory Production FX</h4>
                         <p>Details about Project 1.</p>
-                        <a href="#" target="_blank">View More</a>
+                        <a href="https://github.com/Dilshan-hesara/Yogurt-Production-Factory/blob/master/README.md" target="_blank">View More</a>
                     </div>
                 </div>
                 <div class="image-container">
-                    <img src="assets/images/LOGO.jpg"  alt="Project 2">
+                    <img  src="assets/images/LOGO.jpg" alt="Project 2">
                     <h1 class="project-title">ONLINE FIREWORKS</h1>
 
                     <div class="details">
                         <h4>Online Fireworks System</h4>
                         <p>Details about Project 2.</p>
-                        <a href="#" target="_blank">View More</a>
+                        <a href="https://dilshanhesara-fireworks.vercel.app/" target="_blank">View More</a>
                     </div>
                 </div>
 
@@ -369,7 +403,7 @@
                     <div class="details">
                         <h4>Food City POS System</h4>
                         <p>Details about Project 4.</p>
-                        <a href="#" target="_blank">View More</a>
+                        <a href="https://github.com/Dilshan-hesara/Point-of-Sale-Frontend/blob/master/FCPOS.md" target="_blank">View More</a>
                     </div>
                 </div>
 
@@ -381,7 +415,7 @@
                     <div class="details">
                         <h4>Tic Tac Toe Game FX</h4>
                         <p>Details about Project 4.</p>
-                        <a href="#" target="_blank">View More</a>
+                        <a href="https://github.com/Dilshan-hesara/Tic-Tac-Toe-Game-FX/blob/master/README.md" target="_blank">View More</a>
                     </div>
                 </div>
 
@@ -743,6 +777,9 @@
     <script>
         AOS.init();
     </script>
+
+
+
     <script>
         document.getElementById("year").textContent = new Date().getFullYear();
     </script>
@@ -820,6 +857,20 @@
 
                 window.open(url, '_blank');
             });
+    </script>
+
+    <script>
+        function updateFavicon() {
+            const favicon = document.getElementById('favicon');
+            const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            favicon.href = darkMode
+                ? 'assets/images/logo/dilshan.ico'
+                : 'assets/images/logo/dilshan-light.png';
+        }
+
+        updateFavicon();
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
     </script>
 </body>
 </html>
