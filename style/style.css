@@ -33,10 +33,10 @@ header{
     padding: 10px 0;
     position: fixed;
 
-    z-index: 1000; /* Ensure it stays on top of other elements */
+    z-index: 1000;
 
-        top: 15px; /* Ensure it sticks to the top */
-        /*left: 0; !* Ensure it aligns to the left *!*/
+        top: 15px;
+        /*left: 0;*/
 
 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -120,7 +120,7 @@ nav ul li {
 
 
 nav>div>img:hover {
-    transform: scale(1.2); /* Enlarge icons on hover */
+    transform: scale(1.2);
 
 }
 
@@ -251,8 +251,8 @@ margin-top: 5px;
 
 
 .social-links a:hover {
-    /*background-color: rgba(0, 0, 0, 0.5); !* Dark circle background *!*/
-    border: 2px solid #000; /* Border around the circle */
+    /*background-color: rgba(0, 0, 0, 0.5); */
+    border: 2px solid #000;
 }
 
 .social-links a img {
@@ -591,7 +591,7 @@ section#projects {
     font-family: 'Sen', sans-serif;
     transition: opacity 0.3s ease;
 
-    white-space: nowrap; /* Ensure the text stays in a single line */
+    white-space: nowrap;
 
 }
 
@@ -885,6 +885,14 @@ section#projects .image-container .details a {
 }
 
 
+
+#contact input,
+#contact textarea {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-family: "Sen", sans-serif;
+    opacity: 1;
+}
 
 /*FOOTER */
 

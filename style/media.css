@@ -1,7 +1,7 @@
 
 @media all and (max-width: 768px) {
     body>header>nav {
-        display: none; /* Or flex, grid, etc. */
+        display: none;
     }
 }
 
