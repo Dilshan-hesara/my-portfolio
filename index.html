@@ -7,6 +7,18 @@
     <meta name="author" content="Dilshan Hesara">
     <meta name="keywords" content="Dilshan Hesara, Dilshan hesara , dilshan hesara,web developer, HTML, CSS, JavaScript, portfolio, creative developer , engineering portfolio, aviation technician, maritime engineer">
 
+
+    <meta property="og:title" content="Dilshan Hesara | Dev & Design">
+    <meta property="og:description" content="Explore the creative web development portfolio of Dilshan Hesara. Built with HTML, CSS, JS, and passion.">
+    <meta property="og:image" content="https://dilshanhesara.com/preview.jpg">
+    <meta property="og:url" content="https://dilshanhesara.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+    <meta property="og:image" content="https://dilshanhesara.com/assets/images/logo/dh01.jpg">
+
+
     <link rel="icon" href="assets/images/logo/dilshan-dark.png" media="(prefers-color-scheme: light)">
     <link rel="icon" href="assets/images/logo/dilshan-light.png" media="(prefers-color-scheme: dark)">
 
@@ -813,7 +825,8 @@
                 const msg  = encodeURIComponent(document.getElementById('msg').value.trim());
 
                 const nameRegex = /^[A-Za-z\s]+$/;
-                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                const emailRegex = /^[A-Za-z\s]+@gmail\.com$+$/;
+                // const emailRegex = /^+@gmail\.com$/;
 
                 if (!name || !email || !msg) {
                     alert("All fields are required!");
@@ -824,11 +837,11 @@
                     alert("Name must contain only letters.");
                     return;
                 }
-                //
-                // if (!emailRegex.test(email)) {
-                //     alert("Please enter a valid email address.");
-                //     return;
-                // }
+
+                if (!emailRegex.test(email)) {
+                    alert("Please enter a valid email address.");
+                    return;
+                }
 
                 const text = `Name: ${name}%0AEmail: ${email}%0AMessage: ${msg}`;
 
@@ -837,6 +850,10 @@
                 const url = `https://wa.me/${phone}?text=${text}`;
 
                 window.open(url, '_blank');
+
+                document.getElementById('full-name').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('msg').value = '';
             });
     </script>
 
