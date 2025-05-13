@@ -1082,7 +1082,6 @@ footer>div:first-child>div:first-child{
 
 
 
-
 .overlay {
     position: fixed;
     top: 64px;
@@ -1100,12 +1099,6 @@ footer>div:first-child>div:first-child{
 .overlay.show {
     display: block;
 }
-
-
-
-
-
-
 
 
 
