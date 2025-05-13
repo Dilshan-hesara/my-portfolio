@@ -5,6 +5,10 @@ body{
     /*background-color: var(--back-color);*/
 }
 
+body{
+    overflow-x: hidden;
+    position: relative;
+}
 *{
     /*margin: 0;*/
     /*padding: 0;*/
