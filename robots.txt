@@ -1,4 +1,6 @@
 User-agent: *
-Disallow: /private/
-Allow: /public/
+Allow: /
+
 Sitemap: https://dilshanhesara.com/sitemap.xml
+
+
