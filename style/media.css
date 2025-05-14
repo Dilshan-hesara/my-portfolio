@@ -22,7 +22,7 @@
         /*HOME*/
 
     #home{
-        background-color: darkslategray;
+/*         background-color: darkslategray; */
     }
         #home {
             grid-template-columns: 1fr; /* Single clome ekk gatta */
