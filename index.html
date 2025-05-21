@@ -155,11 +155,6 @@
                     <h1 dat-aos="fade-down-right">Dilshan hesara</h1>
 
 
-<!--                    <div>-->
-<!--                        <h1>I'm a <span class="auto-type"></span></h1>-->
-
-<!--                    </div>-->
-<!--                    <h2>And I'm a <mark>Software Developer</mark></h2>-->
 
 
                     <h2 daa-aos="fade-down-right">And I'm a <mark class="auto-type"></mark></h2>
@@ -762,50 +757,6 @@
 
 
 
-<!--    <script>-->
-<!--        document-->
-<!--            .getElementById('contact')-->
-<!--            .addEventListener('submit', function(e) {-->
-<!--                e.preventDefault();-->
-
-<!--                const name = encodeURIComponent(document.getElementById('full-name').value.trim());-->
-<!--                const email = encodeURIComponent(document.getElementById('email').value.trim());-->
-<!--                const msg  = encodeURIComponent(document.getElementById('msg').value.trim());-->
-
-<!--                const nameRegex = /^[A-Za-z\s]+$/;-->
-<!--                const emailRegex = /^[A-Za-z\s]+@gmail\.com$+$/;-->
-<!--                // const emailRegex = /^+@gmail\.com$/;-->
-
-<!--                if (!name || !email || !msg) {-->
-<!--                    alert("All fields are required!");-->
-<!--                    return;-->
-<!--                }-->
-
-<!--                if (!nameRegex.test(name)) {-->
-<!--                    alert("Name must contain only letters.");-->
-<!--                    return;-->
-<!--                }-->
-
-<!--                // if (!emailRegex.test(email)) {-->
-<!--                //     alert("Please enter a valid email address.");-->
-<!--                //     return;-->
-<!--                // }-->
-
-<!--                const text = `Name: ${name}%0AEmail: ${email}%0AMessage: ${msg}`;-->
-
-<!--                const phone = '+94703150104';-->
-
-<!--                const url = `https://wa.me/${phone}?text=${text}`;-->
-
-<!--                window.open(url, '_blank');-->
-
-<!--                document.getElementById('full-name').value = '';-->
-<!--                document.getElementById('email').value = '';-->
-<!--                document.getElementById('msg').value = '';-->
-<!--            });-->
-<!--    </script>-->
-
-
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -851,7 +802,8 @@
                 const msg = encodeURIComponent(document.getElementById('msg').value.trim());
 
                 const nameRegex = /^[A-Za-z\s]+$/;
-                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // More general email pattern
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 
                 if (!name || !email || !msg) {
                     alert("All fields are required!");
