@@ -23,8 +23,9 @@
 
     <meta name="viewport" content="width = device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css"></link>
-    <link rel="stylesheet" href="style/media.css"></link>
+<!--    <link rel="stylesheet" href="style/media.css"></link>-->
     <link rel="stylesheet" href="lib/normalize.css"></link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -83,9 +84,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+
+
 </head>
 
 <body>
+<div id="particles-js"></div>
 
     <!--nav -->
 
@@ -226,30 +230,159 @@
 
         </div>
 
-       <div  data-aos="fade-up"
-             data-aos-duration="3000">
+<!--       <div  data-aos="fade-up"-->
+<!--             data-aos-duration="3000">-->
 
-           <div class="skills-container" >
-               <div class="skills-row">
-                   <div class="item"><img src="assets/images/skills/java.png" alt="Java"></div>
-                   <div class="item"><img src="assets/images/skills/mysql.png" alt="MySQL"></div>
-                   <div class="item"><img src="assets/images/skills/js.png" alt="JavaScript"></div>
-                   <div class="item"><img src="assets/images/skills/html.png" alt="Html"></div>
-                   <div class="item"><img src="assets/images/skills/css.png" alt="CSS"></div>
-                   <div class="item"><img src="assets/images/skills/figma.png" alt="Figma"></div>
-               </div>
+<!--           <div class="skills-container" >-->
+<!--               <div class="skills-row">-->
+<!--                   <div class="item"><img src="assets/images/skills/java.png" alt="Java"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/mysql.png" alt="MySQL"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/js.png" alt="JavaScript"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/html.png" alt="Html"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/css.png" alt="CSS"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/figma.png" alt="Figma"></div>-->
+<!--               </div>-->
 
-               <div class="skills-row">
-                   <div class="item"><img src="assets/images/skills/aps.png" alt="Photoshop"></div>
-                   <div class="item"><img src="assets/images/skills/inshot.png" alt="inShot"></div>
-                   <div class="item"><img src="assets/images/skills/aae.png" alt="After Effects"></div>
-                   <div class="item"><img src="assets/images/skills/apr.png" alt="Premiere pro"></div>
-                   <div class="item"><img src="assets/images/skills/sb.png" alt="SceneBuilder"></div>
-                   <div class="item"><img src="assets/images/skills/git.png" alt="Git"></div>
-               </div>
-           </div>
+<!--               <div class="skills-row">-->
+<!--                   <div class="item"><img src="assets/images/skills/aps.png" alt="Photoshop"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/inshot.png" alt="inShot"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/aae.png" alt="After Effects"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/apr.png" alt="Premiere pro"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/sb.png" alt="SceneBuilder"></div>-->
+<!--                   <div class="item"><img src="assets/images/skills/git.png" alt="Git"></div>-->
+<!--               </div>-->
+<!--           </div>-->
 
-       </div>
+<!--       </div>-->
+
+
+        <div data-aos="fade-up" data-aos-duration="3000">
+<!--            <div class="skills-container">-->
+<!--                &lt;!&ndash; Row 1: Full Stack Development - Core Languages &ndash;&gt;-->
+<!--                <div class="skills-row">-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=html" alt="HTML"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=css" alt="CSS"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=java" alt="Java"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=py" alt="Python"></div>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Row 2: Frameworks & Libraries &ndash;&gt;-->
+<!--                <div class="skills-row">-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=react" alt="React"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=express" alt="Express"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=spring" alt="Spring Boot"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind"></div>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Row 3: Databases & Tools &ndash;&gt;-->
+<!--                <div class="skills-row">-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=git" alt="Git"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"></div>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Row 4: DevOps, Cloud & Cybersecurity &ndash;&gt;-->
+<!--                <div class="skills-row">-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=aws" alt="AWS"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=linux" alt="Linux"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=kafka" alt="Kafka"></div>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; Row 5: Cyber Security &ndash;&gt;-->
+<!--                <div class="skills-row">-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=wireshark" alt="Wireshark"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=bash" alt="Bash Scripting"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=azure" alt="Azure Security"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=nmap" alt="Nmap"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=metasploit" alt="Metasploit"></div>-->
+<!--                    <div class="item"><img src="https://skillicons.dev/icons?i=burpsuite" alt="Burp Suite"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+            <div class="skills-container">
+                <div class="skills-row">
+                                        <div class="item"><img src="https://skillicons.dev/icons?i=css" alt="CSS"></div>
+                                        <div class="item"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"></div>
+                                        <div class="item"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"></div>
+                                        <div class="item"><img src="https://skillicons.dev/icons?i=java" alt="Java"></div>
+                                        <div class="item"><img src="https://skillicons.dev/icons?i=py" alt="Python"></div>
+
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=react" alt="React"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=express" alt="Express"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=spring" alt="Spring Boot"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind"></div>
+
+                                        <!-- Row 3: Databases & Tools -->
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=git" alt="Git"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"></div>
+
+                                        <!-- Row 4: DevOps, Cloud & Cybersecurity -->
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=aws" alt="AWS"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=gcp" alt="Google Cloud"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=linux" alt="Linux"></div>
+                                            <div class="item"><img src="https://skillicons.dev/icons?i=kafka" alt="Kafka"></div>
+
+
+
+                    <div class="item"><img src="assets/images/skills/java.png" alt="Java"></div>
+                    <div class="item"><img src="assets/images/skills/mysql.png" alt="MySQL"></div>
+                    <div class="item"><img src="assets/images/skills/js.png" alt="JavaScript"></div>
+                    <div class="item"><img src="assets/images/skills/html.png" alt="Html"></div>
+                    <div class="item"><img src="assets/images/skills/css.png" alt="CSS"></div>
+                    <div class="item"><img src="assets/images/skills/figma.png" alt="Figma"></div>
+                    <div class="item"><img src="assets/images/skills/aae.png" alt="After Effects"></div>
+                    <div class="item"><img src="assets/images/skills/apr.png" alt="Premiere Pro"></div>
+                    <div class="item"><img src="assets/images/skills/git.png" alt="Git"></div>
+                    <!-- Add this to the end of your skills-row -->
+                    <div class="item"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code"></div>
+                    <div class="item"><img src="https://skillicons.dev/icons?i=redux" alt="Redux"></div>
+                    <div class="item"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"></div>
+                    <div class="item"><img src="https://skillicons.dev/icons?i=graphql" alt="GraphQL"></div>
+
+
+                    <!-- Category: Cybersecurity -->
+                    <div class="item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux (bash alternative)" style="width:50px; height:50px;"></div>
+                    <div class="item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" style="width:50px; height:50px;"></div>
+                    <div class="item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker (container)" style="width:50px; height:50px;"></div>
+                    <div class="item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" style="width:50px; height:50px;"></div>
+                    <div class="item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" style="width:50px; height:50px;"></div>
+                    <div class="item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width:50px; height:50px;"></div>
+
+
+                    <!-- Category: Hosting & Deployment -->
+                    <div class="item"><img src="https://skillicons.dev/icons?i=vercel" alt="Vercel"></div>
+                    <div class="item"><img src="https://skillicons.dev/icons?i=netlify" alt="Netlify"></div>
+                    <div class="item"><img src="https://skillicons.dev/icons?i=firebase" alt="Firebase Hosting"></div>
+                    <div class="item"><img src="https://skillicons.dev/icons?i=heroku" alt="Heroku"></div>
+                    <div class="item"><img src="assets/images/skills/render.svg" alt="Render"></div>
+
+                    <div class="item"><img src="https://skillicons.dev/icons?i=cloudflare" alt="Cloudflare Pages"></div>
+
+
+                </div>
+            </div>
+
+        </div>
+
 
     </section>
 
@@ -685,6 +818,49 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+
+<script>
+    particlesJS("particles-js", {
+        particles: {
+            number: { value: 100, density: { enable: true, value_area: 800 } },
+            color: { value: "#d4b483" },
+            shape: { type: "circle", stroke: { width: 0, color: "#000000" } },
+            opacity: { value: 0.4, random: true },
+            size: { value: 4, random: true },
+            line_linked: {
+                enable: true,
+                distance: 150,
+                color: "#d4b483",
+                opacity: 0.6,
+                width: 1
+            },
+            move: {
+                enable: true,
+                speed: 2.5,
+                direction: "none",
+                random: true,
+                straight: false,
+                out_mode: "out",
+                bounce: false
+            }
+        },
+        interactivity: {
+            detect_on: "canvas",
+            events: {
+                onhover: { enable: true, mode: "grab" },
+                onclick: { enable: true, mode: "push" },
+                resize: true
+            },
+            modes: {
+                grab: { distance: 140, line_linked: { opacity: 0.8 } },
+                push: { particles_nb: 4 }
+            }
+        },
+        retina_detect: true
+    });
+</script>
     <script>
         AOS.init();
     </script>
