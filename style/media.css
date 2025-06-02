@@ -317,7 +317,24 @@
     }
 
 
+/*SERVERS*/
 
+    #services h2 {
+        font-size: 28px;
+        padding: 30px 15px 25px 15px;
+    }
+    .service-card {
+        width: 90%;
+        min-height: 280px;
+        padding: 25px 20px;
+    }
+    .services-container {
+        gap: 20px;
+    }
+    .card-icon-container {
+        width: 80px;
+        height: 80px;
+    }
 
     /*!*FOOTER*!*!*/
 
@@ -383,6 +400,10 @@
     }
 
 
+    .service-card {
+        width: calc(50% - 30px);
+        min-height: 320px;
+    }
 
 }
 
@@ -494,6 +515,15 @@
     }
 
 
+    /*SERVERS*/
+
+    #services h2 {
+        font-size: 30px;
+    }
+    .service-card {
+        width: 85%;
+        min-height: 290px;
+    }
 
     /*about*/
 
@@ -725,6 +755,10 @@
         font-size: 0.7em;
     }
 
+    .service-card {
+        width: calc(50% - 30px);
+        min-height: 320px;
+    }
 
 
 
@@ -757,8 +791,15 @@
 
 
 
+    /*SEEVERS*/
+
+    .service-card {
+        width: calc(50% - 30px);
+        min-height: 320px;
+    }
 
 
+    /*HOME*/
     #home {
         grid-template-columns: 1fr; /* Single clome ekk gatta */
         grid-template-rows: auto auto; /*poto eka fist ,text bottm*/
@@ -1791,42 +1832,11 @@
 
     /*SERVERS*/
 
-@media all and (min-width: 20px) and (max-width: 320px) {
-    #services h2 {
-        font-size: 28px;
-        padding: 30px 15px 25px 15px;
-    }
-    .service-card {
-        width: 90%;
-        min-height: 280px;
-        padding: 25px 20px;
-    }
-    .services-container {
-        gap: 20px;
-    }
-    .card-icon-container {
-        width: 80px;
-        height: 80px;
-    }
-}
-
-@media all and (min-width: 320px) and (max-width: 375px) {
-    #services h2 {
-        font-size: 30px;
-    }
-    .service-card {
-        width: 85%;
-        min-height: 290px;
-    }
-}
 
 @media all and (min-width: 375px) and (max-width: 425px) {
-    #services h2 {
-        font-size: 32px;
-    }
     .service-card {
-        width: 80%;
-        min-height: 300px;
+        width: calc(50% - 30px);
+        min-height: 320px;
     }
 }
 
