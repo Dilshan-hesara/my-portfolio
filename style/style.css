@@ -165,6 +165,11 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+nav a.active:after {
+    width: 100%;
+}
+
+
 /*.profile-picture-container img {*/
 /*    border-radius: 50%;*/
 /*    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);*/
