@@ -1264,7 +1264,7 @@ footer>div:first-child>div:first-child{
 
 }
 
-#services::before {
+/* #services::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1275,7 +1275,7 @@ footer>div:first-child>div:first-child{
             radial-gradient(circle at 10% 20%, rgba(37, 99, 235, 0.05) 0%, transparent 15%),
             radial-gradient(circle at 90% 80%, rgba(37, 99, 235, 0.05) 0%, transparent 15%);
     z-index: 0;
-}
+} */
 
 #services h2 {
     font-family: "Sen", sans-serif;
