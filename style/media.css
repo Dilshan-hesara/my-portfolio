@@ -1868,10 +1868,28 @@
 
 
 
+/*         Gallery Slider */
+
+
+@media (max-width: 1200px) {
+    .slide { width: 280px; height: 350px; }
+}
+
+@media (max-width: 768px) {
+    .slide { width: 240px; height: 300px; margin: 0 10px; }
+    .slide-info { padding: 15px; }
+    .slide-info h3 { font-size: 1.2rem; }
+}
+
+@media (max-width: 576px) {
+    .slide { width: 200px; height: 250px; }
+    #seamless-slider h2 { font-size: 1.8rem; margin-bottom: 30px; }
+}
+
 
 
 /*--------------------------------------------------------------------------------------------------------------*/
-
+                                
 
 /*    !*MOBILE SMALL*!*/
 /*@media all and  (max-width:320px) {*/
