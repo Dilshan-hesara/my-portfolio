@@ -1130,6 +1130,64 @@
     </script>
 
 
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const sliderTrack = document.querySelector('.slider-track');
+        const originalSlides = Array.from(document.querySelectorAll('.slide'));
+
+        originalSlides.forEach(slide => {
+            const clone = slide.cloneNode(true);
+            sliderTrack.appendChild(clone);
+        });
+
+        document.querySelectorAll('.slide img').forEach(img => {
+            const wrapper = img.parentElement;
+            wrapper.style.position = 'relative';
+
+            const spinner = document.createElement('div');
+            spinner.className = 'img-spinner';
+
+            const errorText = document.createElement('div');
+            errorText.className = 'img-error-text';
+            errorText.textContent = 'CloudLock Config failed';
+            errorText.style.display = 'none';
+
+            spinner.appendChild(errorText);
+            wrapper.appendChild(spinner);
+
+            img.onload = () => {
+                spinner.remove();
+            };
+
+            img.onerror = () => {
+                errorText.style.display = 'block';
+            };
+        });
+
+        let lastTime = performance.now();
+        function monitorScroll() {
+            const currentTime = performance.now();
+            if (currentTime - lastTime > 1000) {
+                sliderTrack.style.animation = 'none';
+                void sliderTrack.offsetWidth;
+                sliderTrack.style.animation = 'scroll 40s linear infinite';
+            }
+            lastTime = currentTime;
+            requestAnimationFrame(monitorScroll);
+        }
+        monitorScroll();
+
+        document.querySelectorAll('.slide').forEach(slide => {
+            slide.addEventListener('click', function () {
+                console.log('Open fullscreen view for:', this.querySelector('img').alt);
+            });
+        });
+    });
+</script>
+
+    
+    
     <script>
 
 
